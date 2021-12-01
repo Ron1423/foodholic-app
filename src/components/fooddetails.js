@@ -35,7 +35,7 @@ const FoodDetails = (props) => {
                             </div>
                             <p className="lead" style={{color:'wheat'}}>{parse(`${props.food.summary}`)}</p>
                             <div className="d-flex">
-                                <Link className="btn btn-outline-dark flex-shrink-0" to="/home">
+                                <Link className="btn btn-outline-dark flex-shrink-0" to="/">
                                     Back to Home
                                 </Link>
                             </div>
