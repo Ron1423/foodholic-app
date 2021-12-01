@@ -10,7 +10,7 @@ const FoodDetails = (props) => {
     const params = useParams();
 
     useEffect(() => {
-        fetch(`https://api.spoonacular.com/recipes/${params.foodId}/similar?apiKey=e066a6ece4ff4f55bf056f428764dff8`)
+        fetch(`https://api.spoonacular.com/recipes/${params.foodId}/similar?apiKey=f20536e2a9f8460ba2ac66356e6fa945`)
         .then(response => response.json())
         .then(data => setSimilar(data));
 
@@ -29,7 +29,7 @@ const FoodDetails = (props) => {
                                 <span>Ready to serve in {props.food.readyInMinutes} minutes.</span>
                             </div>
                             <div className="d-flex">
-                                <a className="btn btn-outline-dark flex-shrink-0" href={parse(`${props.food.sourceUrl}`)} target="_blank">
+                                <a className="btn btn-outline-dark flex-shrink-0" href={parse(`${props.food.sourceUrl}`)} target="_blank" rel="noopener noreferrer">
                                    See Recepies
                                 </a>
                             </div>

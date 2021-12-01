@@ -10,7 +10,7 @@ const Details = () => {
     const params = useParams();
 
     useEffect(() => {
-        fetch(`https://api.spoonacular.com/recipes/${params.foodId}/information?includeNutrition=false&apiKey=e066a6ece4ff4f55bf056f428764dff8`)
+        fetch(`https://api.spoonacular.com/recipes/${params.foodId}/information?includeNutrition=false&apiKey=f20536e2a9f8460ba2ac66356e6fa945`)
         .then(response => response.json())
         .then(data => setFoods(data));
 
