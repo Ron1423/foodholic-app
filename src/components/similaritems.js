@@ -16,7 +16,7 @@ const SimilarItems = (props) => {
                     </div>
                 </div>
                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div className="text-center"><Link className="btn btn-outline-dark mt-auto" to={`/details/${props.similar.id}`} target="_parent">View Details</Link></div>
+                    <div className="text-center"><Link className="btn btn-outline-dark mt-auto" to={`/details/${props.similar.id}`} target="_parent">Read More</Link></div>
                 </div>
             </div>
         </div>
