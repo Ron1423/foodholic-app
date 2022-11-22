@@ -1,3 +1,9 @@
+//loading
+const [loading, setLoading] = React.useState(true);
+setTimeout(() => {
+setLoading(false);
+}, 1000);
+
 // encoding text to number format
 function encode(phrase) {
   const phraseTokens = phrase.split(" ");
