@@ -10,7 +10,7 @@ function chatbot() {
             Back to Home
           </Link>
         </div>
-        <b>Informasi Dormitory Chatbot</b>
+        <b>Chatbot FOOD'AHOLIC</b>
       </div>
       <div
         className="card-body"

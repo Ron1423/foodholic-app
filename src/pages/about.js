@@ -11,25 +11,32 @@ const About = () => {
       <Navigation />
       <section className="page-section clearfix">
         <div className="container">
-          <div className="intro">
-            <img
-              className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-              src={logo}
-              alt="Pict"
-            />
-            <div className="intro-text left-0 text-center bg-faded p-5 rounded">
-              <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Final Project</span>
-                <span className="section-heading-lower">
-                  Pelle, Aaron Yerusyadai
-                </span>
-              </h2>
-              <p className="mb-3">
-                NIM : 105022010091 <br /> Program Studi : Informatika <br />{" "}
-                Kelas : Front - End Web Development - B
-              </p>
-              <div className="intro-button mx-auto">
-                <button className="btn btn-primary btn-xl">Developer</button>
+          <div className="row">
+            <div className="col-xl-9 mx-auto">
+              <div className="intro-text text-center cta-inner mb-5 mb-lg-0 bg-faded p-5 rounded">
+                <h2 className="section-heading mb-4">
+                  <span className="section-heading-upper">Final Project</span>
+                </h2>
+                <p className="mb-3">Kelas : Machine Learning</p>
+                <h2 className="section-heading mb-4">
+                  <span className="section-heading-lower">
+                    Yasin, Saylendra Myheart
+                  </span>
+                </h2>
+                <p className="mb-3">
+                  NIM : 105022010102 <br /> Program Studi : Informatika <br />
+                </p>
+                <h2 className="section-heading mb-4">
+                  <span className="section-heading-lower">
+                    Pelle, Aaron Yerusyadai
+                  </span>
+                </h2>
+                <p className="mb-3">
+                  NIM : 105022010091 <br /> Program Studi : Informatika <br />
+                </p>
+                <div className="intro-button mx-auto">
+                  <button className="btn btn-primary btn-xl">Developers</button>
+                </div>
               </div>
             </div>
           </div>

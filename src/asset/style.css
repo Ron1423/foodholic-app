@@ -4,6 +4,10 @@ body {
   padding: 0 20px;
 }
 
+.header {
+  background-color: #ffc107;
+}
+
 .containerbot {
   border: 2px solid #dedede;
   background-color: #f1f1f1;
@@ -34,7 +38,7 @@ body {
 .containerbot img.right {
   float: right;
   margin-left: 20px;
-  margin-right:0;
+  margin-right: 0;
 }
 
 .time-right {
